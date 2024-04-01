@@ -1,0 +1,239 @@
+@media only screen and (min-width: 64em){
+    /* MAIN BODY */
+
+    h2 {
+        font-size: 3rem;
+    }
+    
+    /* MAIN BODY */
+    
+
+
+
+
+
+    /* HEADER */
+    
+    header img {
+        width: 200px;
+        height: auto;
+        background: transparent;
+    }
+
+    .headingtext h1 {
+        font-size: 3rem;
+    }
+
+    .motto {
+        letter-spacing: 1.5pt;
+        font-size: larger;
+        margin-left: 17px;
+    }
+
+    /* HEADER */
+    
+
+
+
+
+
+    /* NAVIGATION */
+
+    nav ul { 
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        padding-left: 0;
+    }
+
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+
+    /* NAVIGATION */
+
+    
+
+
+    /* GALLERY */
+
+    .images {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .images div:hover {
+        box-shadow: 0 0 30px #333;
+        transition-duration: .5s;
+        transition-timing-function: ease-in;
+    }
+
+    
+
+    /* GALLERY */
+
+
+    /* HERO */
+
+
+    .top-hero {
+        margin-bottom: 1rem;
+        position: relative;
+    }
+
+    .idaho {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        padding-bottom: 1rem;
+    }
+
+    .weather {
+        position: absolute;
+        top: 15%;
+        left: 15%;
+        width:max-content;
+        line-height: 2rem;
+        padding: 2.5rem;
+        font-size: 2rem;
+        
+    }
+ 
+
+
+    /* HERO */
+
+
+
+
+/* TOWNS */
+
+#getjson {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.specificTown {
+    display: block;
+    padding: .5rem;
+    width: 90%;
+}
+
+.townImage {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.h2, .h4, .population, .year, .rain{
+    text-align: center;
+    line-height: 1rem;
+}
+
+.h2 {
+    line-height: 2rem;
+    font-size: 2rem;
+}
+
+.h4 {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.rain {
+    margin-bottom: 2rem;
+}
+/* TOWNS */
+
+
+    /* FIVE DAY */
+
+    .fivedaytitle {
+        display:block;
+        margin: 5rem 0 2rem auto;
+        font-size: 2.5rem;
+    }
+    
+    .fiveday table {
+        background-color: #b1db76 ;
+        border: 2px solid #2A2A14;
+        width: 45%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    
+    .days {
+        background-color:  #2A2A14;
+        color: #E9D2C4;
+        font-size: 2rem;
+    }
+
+    th img {
+        width: 55px;
+        height: 100%;
+    }
+    
+    .underdays {
+        font-size: 1.5rem;
+    }
+    
+    /* FIVE DAY */
+
+
+
+
+
+
+    /* ARTICLE */
+    
+    .article img{
+        width: 350px;
+        height: auto;
+        margin: 10px 0px 10px 10px;
+        float: right;
+    }
+
+    /* ARTICLE */
+
+
+
+
+
+
+    /* BOTTOM */
+    
+    .bottom {
+        display: flex;
+        margin-bottom: 0;
+    }
+    
+    .left {
+        flex: 50%;
+    }
+    
+    .right {
+        flex: 50%;
+    }
+
+    /* BOTTOM */
+
+    
+
+
+
+    
+    /* FOOTER */
+
+    footer, .bottom {
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    /* FOOTER */
+
+}

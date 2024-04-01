@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Preston Idaho</title>
+      <meta name="description" content="This page will be the preston idaho site">
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="../css/small.css">
+      <link rel="stylesheet" href="../css/normalize.css">
+      <link rel="stylesheet" href="../css/medium.css">
+      <link rel="stylesheet" href="../css/large.css">
+</head>
+  
+  <body>
+        <header>
+            <div>
+              <a href="https://trishaminela.github.io/Lesson-11/html/home.html" target="_blank"><img src="../images/logo.png" alt="Logo"></a>
+            </div>
+            <section class="headingtext">
+                <h1 class="Title">Your Forecast</h1>
+                <div class="motto">Befriend your forecast and take the counsel</div>
+            </section>
+        </header>
+
+        <nav class="clearfix">
+            <ul class="hamburger">
+              <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; MENU</a></li>
+              <li><a href="https://trishaminela.github.io/Lesson-11/html/home.html">Home</a></li>
+              <li class="active"><a href="https://trishaminela.github.io/Lesson-11/html/preston.html">Preston</a></li>
+              <li><a href="https://trishaminela.github.io/Lesson-11/html/sodasprings.html">Soda Springs</a></li>  
+              <li><a href="https://trishaminela.github.io/Lesson-11/html/fishhaven.html">Fish Haven</a></li>
+              <li><a href="https://trishaminela.github.io/Lesson-11/html/stormcenter.html">Storm Center</a></li>
+              <li><a href="https://trishaminela.github.io/Lesson-11/html/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+          <h2>
+            Preston Idaho
+          </h2>
+
+          <div class="top-hero">
+            <picture class="idaho">
+              <source srcset="../images/smallhero.jpg" media="(max-width: 800px)">
+              <source srcset="../images/mediumhero.jpg" media="(max-width: 1200px)">
+              <img src="../images/hero.jpg" alt="hero" class="idaho">
+              
+       
+            </picture>
+          
+            <section class="weather">
+              <h3 class= "weathertitle">Weather Summary</h3>  
+                <table>
+                  <tbody>
+                    <tr>
+                      <th >
+                        Currently:
+                      </th>
+                      <td id="current">
+                        
+                      </td>
+                    </tr>
+  
+                    <tr>
+                      <th>
+                        Temperature:
+                      </th>
+                      <td>
+                        <span id="temperature"></span>&deg;F
+                      </td>
+                    </tr>
+  
+                    <tr>
+                      <th>
+                        Wind Chill:
+                      </th>
+                      <td>
+                        <span id="windchill"></span>
+                      </td>
+                    </tr>
+  
+                    <tr>
+                      <th>
+                        Humidity:
+                      </th>
+                      <td id="humidity">
+                      
+                      </td>
+                    </tr>
+  
+                    <tr>
+                      <th>
+                        Wind Speed:
+                      </th>
+                      <td>
+                        <span id="speed"></span>
+                      </td>
+                    </tr>
+  
+                    <tr>
+                      <th>
+  
+                      </th>
+                      <td>
+  
+                      </td>
+                    </tr>
+  
+                  </tbody>
+                </table>
+              </section>
+          </div>
+          
+          <h3 class="fivedaytitle">5 Day Forecast</h3>
+          <table class="table">
+            <tbody>
+              <tr>
+                <th id="days1"></th>
+                <th id="days2"></th>
+                <th id="days3"></th>
+                <th id="days4"></th>
+                <th id="days5"></th>
+              </tr>
+              
+              <tr id="image">
+                <th><img id="fiveday1" alt="weather icon"></th>
+                <th><img id="fiveday2" alt="weather icon"></th>
+                <th><img id="fiveday3" alt="weather icon"></th>
+                <th><img id="fiveday4" alt="weather icon"></th>
+                <th><img id="fiveday5" alt="weather icon"></th>
+              </tr>
+          
+              <tr>
+                <th id="daytemp1"></th>
+                <th id="daytemp2"></th>
+                <th id="daytemp3"></th>
+                <th id="daytemp4"></th>
+                <th id="daytemp5"></th>
+              </tr>
+
+            </tbody>
+          </table>
+        
+        
+          <div class="events">
+            <h3>Town Events:</h3>
+            <div id="event"></div>
+          </div>
+        
+        <div class="article">
+          <img src="../images/placerton.jpg" class="articleimage" alt="article">
+          <h3>
+            Weekend Travels
+          </h3>
+          <h5>
+            by Trisha Sumiran
+          </h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+          </p>
+        </div>
+
+ 
+    <div class="bottom">
+        <div class="left">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.726302210736!2d-111.9154302721173!3d42.099805285698125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sph!4v1621690849610!5m2!1sen!2sph" width="550" height= "350" style="border:10px;" allowfullscreen="" loading="lazy" class="map"></iframe>
+        </div>
+        <section  class="right"> 
+            <h2 class="name">Your Forecast</h2>
+            <p class="address">
+              <br><img src="../images/destination.png" height="30" alt="destination">394-440 W 8th N<br>
+              <br>Preston, ID 83263, USA<br>
+              <br><img src="../images/phone.png" height="30" alt="phone"> Contact us:<br>
+              <br>0000 000 000<br>
+              <br><img src="../images/email.png" height="30" alt="email"> Email us:<br>
+              <br>inquiries@yourforecast.com<br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <a href="https://www.facebook.com" target="_blank" class="social"><img src="../images/facebook.png" height="45" alt="Facebook"></a>
+              <a href="https://www.instagram.com" target="_blank" class="social"><img src="../images/instagram.png" height="45" alt="Instagram"></a>
+              <a href="https://www.youtube.com" target="_blank" class="social"><img src="../images/youtube.png" height="45" alt="Youtube"></a>
+            </p>
+        </section>
+
+        </div>
+     
+      </main>
+      <footer>
+        <a href="https://openweathermap.org/" target="_blank" ><img src="../images/openweather.png" alt="open weather" class="ow"></a>
+        &copy; <span id="year"></span> Your Forecast | Trisha Minela I. Sumiran 
+        
+        <p>Current Date: <span id="currently"></span></p>
+      
+      </footer>
+      <script src="../js/script.js"></script>
+      <script src="../js/p5.js"></script>
+      <script src="../js/preston.js"></script>
+      <script src="../js/prestonevent.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  </body>
+</html>

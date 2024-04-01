@@ -1,0 +1,283 @@
+@media only screen and (min-width: 35em)  {
+
+    /* MAIN BODY */
+
+   
+
+    h2 {
+        font-size: 3rem;
+    }
+    
+
+    
+    /* MAIN BODY */
+    
+
+
+
+
+
+    /* HEADER */
+    
+    header img {
+        width: 150px;
+        height: auto;
+    }
+
+    /* HEADER */
+    
+
+
+
+
+
+    /* NAVIGATION */
+
+    nav ul li a {
+        border: none;
+        padding: .7rem 1rem;
+    }
+
+    nav ul li {
+        border-right: 1px solid #eb6e38;
+    }
+
+    nav ul li:hover {
+        background-color: #bf3900;
+        color: #2A2A14;
+    }
+
+    .hamburger li:first-child {
+        display: none;
+    }
+    
+    .hamburger {
+		display: flex;
+	}
+	.hamburger li {
+		display: block; 
+		flex: 1 1 auto;
+	}
+
+	.hamburger a {
+		text-align: center;
+	}
+
+    /* NAVIGATION */
+
+    
+
+    
+    /* GALLERY */
+
+    .images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+        
+    }
+
+    /* GALLERY */
+
+
+
+
+    
+/* TOWNS */
+
+div#getjson{
+    max-width: 90%;
+    margin: .5rem auto;
+}
+
+
+.specificTown {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  
+  .specificTown:nth-child(odd) img {
+      grid-column: 2/3;
+  }
+
+    
+  .specificTown:nth-child(even) img {
+    grid-column: 1/2;
+}
+
+.specificTown:nth-child(odd) h2, .specificTown:nth-child(odd) h4, .specificTown:nth-child(odd) p{
+    grid-column: 1;
+    line-height: 1rem;
+}
+
+  
+.specificTown:nth-child(even) h2,
+.specificTown:nth-child(even) h4,.specificTown:nth-child(even) p {
+  grid-column: 2;
+  line-height: 1rem;
+}
+
+.townImage {
+    width: 100%; 
+    height: auto;
+    padding: 0;
+    grid-row: 1/6;
+}
+
+.h4, .year, .population, .rain {
+    padding: 0;
+    margin: 0;
+    line-height: 0%;
+}
+
+.h2 {
+    padding: .5rem;
+    font-size: 2rem;
+    line-height: .5rem;
+    margin: 0;
+}
+/* TOWNS */
+
+
+
+
+    /* HERO */
+
+ 
+    .top-hero {
+        margin-bottom: 1rem;
+        position: relative;
+    }
+
+    .idaho {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        padding-bottom: 1rem;
+    }
+
+    .weather {
+        position: absolute;
+        top: 15%;
+        left: 15%;
+        width:max-content;
+        line-height: 2rem;
+        padding: 2.5rem;
+        font-size: 2rem;
+        
+    }
+ 
+
+    
+    /* HERO */
+
+
+
+
+
+
+    /* FIVE DAY */
+
+    .fivedaytitle {
+        display:block;
+        margin: 5rem 0 2rem auto;
+        font-size: 2.5rem;
+    }
+    
+    .fiveday table {
+        background-color: #b1db76 ;
+        border: 2px solid #2A2A14;
+        width: 45%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .days {
+        background-color:  #2A2A14;
+        color: #E9D2C4;
+        font-size: 2rem;
+    }
+
+    th img {
+        width: 55px;
+        height: 100%;
+    }
+    
+    .underdays {
+        font-size: 1.5rem;
+    }
+
+    /* FIVE DAY */
+
+
+
+
+
+
+    /* ARTICLE */
+    
+    .article img{
+        width: 300px;
+        height: auto;
+        margin: 10px 0px 10px 10px;
+        float: right;
+    }
+    
+    .article, .bottom {
+        background-color: #f78a5c;
+    }    
+
+    /* ARTICLE */
+
+
+
+
+
+
+    /* BOTTOM */
+
+    .bottom {
+        display: flex;
+        margin-bottom: 0;
+    }
+    
+    .left {
+        flex: 50%
+    }
+    
+    .right {
+        flex: 50%
+    }
+
+    /* BOTTOM */
+
+    
+
+
+
+
+    /* FOOTER */
+
+
+
+    /* FOOTER */
+    
+    
+    
+    
+    
+    
+    
+    
+
+  
+
+
+
+    
+
+
+   
+    
+    }

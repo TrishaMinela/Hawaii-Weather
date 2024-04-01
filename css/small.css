@@ -1,0 +1,577 @@
+/* MAIN BODY */
+
+html {
+    background-color: #E9D2C4;
+}
+
+main {
+	margin: 0 auto;
+    background-color: #E9D2C4;
+    padding: 3em;
+    margin-bottom: 7rem;
+}
+
+.gallery {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3, p {
+    text-align: center;
+    margin: 2px;
+}
+
+
+/* MAIN BODY */
+
+
+
+
+/* HEADING */
+
+header {
+    display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 100px;
+	height: auto;
+}
+
+.headingtext {
+	display: flex;
+	flex-direction: column;
+}
+
+.headingtext h1 {
+	font-size: 30px;
+	margin: 0 0 0 17px;
+}
+
+.motto {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: #E45011;
+    margin-left: 20px;
+    font-size: .9rem;
+}
+
+/* HEADING */
+
+
+
+
+
+
+/* NAVIGATION */
+
+
+nav ul {
+    background-color: #2A2A14;
+    font-family: 'Antonio', sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li a {
+    padding-left: 0;
+    display: block;
+    padding: 1.5rem 2%;
+    text-decoration: none;
+    border-top: 1px solid #eb6e38;
+    color: #E45011;
+}
+
+.hamburger li:first-child {
+    display: block;
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+}
+
+.hamburger li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+.ham {
+    border-top: none;
+}
+
+nav ul li.active a{
+    color: #E9D2C4 !important;
+    background-color: #8c2a00; 
+}
+
+nav ul li a:hover {
+    background-color: #bf3900;
+    color: #2A2A14;
+}
+
+/* NAVIGATION */
+
+
+
+
+/* GALLERY */
+
+
+.visit {
+    background-color: rgba(52, 66, 36, 0.3);
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+.images div {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2px;
+    border: 5px outset ;
+    padding: 0 !important;
+    width: 300px;
+}
+
+.images picture {
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* GALLERY */
+
+
+
+/* TOWNS */
+
+.specificTown {
+    margin: 0 auto;
+    border: 1px solid #344224;
+    padding: 2rem;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.townImage {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.h2, .h4, .population, .year, .rain{
+    text-align: center;
+    line-height: 1rem;
+}
+
+.h2 {
+    background: #344224;
+    color: #E9D2C4;
+}
+
+.rain {
+    margin-bottom: 2rem;
+}
+
+/* TOWNS */
+
+
+/* HERO */
+
+.idaho {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem !important;
+}
+
+.weather {
+    display: block;
+    margin: 0 auto;
+    background-color:rgba(233, 210, 196, 0.45);
+    border: 4px solid #2A2A14;
+    width:max-content;
+    font-size: 12px;
+}
+
+.weather h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.weather legend {
+    text-align: right;
+    color: black;
+}
+
+.weathertitle {
+    text-align: left;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+}
+
+.weather td {
+    text-align: left;
+}
+
+/* HERO */
+
+
+/* FORM */
+
+form {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+.storm {
+    text-align: center;
+}
+
+form fieldset {
+    border: 5px solid #2A2A14;
+    border-radius: 10px;
+    max-width: 100%;
+    padding: 2rem 2rem;
+    margin: 3rem auto;
+}
+
+form legend {
+    color: #E45011;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 2rem;
+    font-family: 'Antonio', sans-serif;
+}
+
+form label {
+    font-family: 'Source Serif Pro', serif;
+    color: #2A2A14;
+    font-size: 1.5rem !important;
+    font-weight: bold;
+}
+
+
+
+form label.user, form label.date, form label.type, form label.rating, form label.yesnom, form label.stormType, form label.region, form label.comments, form div, form label#danger{
+    display: block;
+    color: #2A2A14;
+    font-size: .8rem;
+    margin: 1rem;
+}
+
+form label.user input, form label.stormType input, form label.date input, form label.type input, form label.region input, form label.region select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1.5rem;
+    border: 1px solid #2A2A14;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #2A2A14;
+    width: 100%;
+    background-color: #b1db76;
+}
+
+p.Thanks {
+    font-size: 3rem;
+}
+
+
+
+form label.comments textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1.5rem;
+    border: 1px solid #2A2A14;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #2A2A14;
+    max-width: 100% !important;
+    width: 100%;
+    background-color: #b1db76;
+}
+
+
+form input.submitBtn {
+    display: block;
+    border: none;
+    background-color: #E45011;
+    color: #E9D2C4;
+    border-radius: 1rem;
+    padding: 0.75rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 96%;
+    max-width: 20rem;
+    font-size: 1.5rem;
+}
+
+form fieldset label.user , form fieldset label.region, form fieldset label.stormType, form fieldset label.rating, form fieldset label.date, form fieldset label#danger{
+    padding: 1rem;
+}
+
+form fieldset input {
+    margin: 0 auto;
+}
+
+form label.user input:required {
+    border-bottom: red solid 6px;
+}
+
+form label.user input:required:valid {
+    border-bottom: green solid 6px;
+}
+
+.slide {
+    width: 80%;
+  }
+  
+  #ratingvalue {
+      font-size: 2.5rem;
+  }
+
+  #rating {
+    -webkit-appearance: none;
+    width: 90%;
+    height: 25px;
+    background: #b1db76;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  span {
+      text-align: center;
+  }
+
+  #rating:hover {
+    opacity: 1;
+  }
+  
+  #rating::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50px;
+    background: #2A2A14;
+    cursor: pointer;
+  }
+  
+  #rating::-moz-range-thumb {
+    width: 2rem;
+    height: 2rem;
+    background: #2A2A14;
+    cursor: pointer;
+  }
+
+  
+
+  
+
+/* FORM */
+
+
+
+    /* WIREFRAME */
+
+    .wireframe {
+        background-color: #2A2A14;
+        width: 90%;
+        margin: 0 auto;
+        color: #E9D2C4;
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+
+    .wireimg {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        height: auto;
+    }
+
+    .wireh2 {
+        margin-bottom: 1rem;
+        margin-top: 0 !important;
+    }
+    /* WIREFRAME */
+
+
+/* FIVE DAY */
+
+.fivedaytitle {
+    display:block;
+    margin: 2rem auto;
+}
+
+.table{
+    background-color: #b1db76 ;
+    border: 2px solid #2A2A14;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.days {
+    background-color:  #2A2A14;
+    color: #E9D2C4;
+    font-size: .8rem;
+}
+
+.table tr th {
+    padding: 1rem;
+}
+
+.table tr:first-child {
+    font-size: 1.5rem;
+    background-color: #344224;
+    color: #E9D2C4;
+}
+
+th img {
+    width: 35px;
+    height: 100%;
+}
+
+.table {
+    width: 70%;
+    margin-bottom: 10rem;
+}
+
+.underdays {
+    font-size: 1rem;
+}
+
+h2, .fivedaytitle {
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* FIVE DAY */
+
+
+
+
+/* TOWNS */
+
+
+
+
+/* TOWNS */
+
+
+
+/* ARTICLE */
+
+.article img, .map{
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.article, .events {
+    width: 80%;
+    margin: 1rem auto;
+    background-color: #f78a5c;
+    padding: 15px;
+    text-align: justify;
+}
+
+h5 {
+    text-align: center;
+}
+
+/* ARTICLE */
+
+
+
+
+
+
+
+/* BOTTOM */
+
+.bottom {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 0;
+    background-color: #f78a5c;
+    padding: 15px;
+    text-align: justify;
+}
+
+.right p {
+    line-height: .7rem;
+    text-align: center;
+}
+
+.social {
+    justify-self: center;
+
+}
+
+/* BOTTOM */
+
+
+
+
+
+
+/* FOOTER */
+
+footer, footer p {
+    background-color: #2A2A14;
+    font-family: 'Antonio', sans-serif;
+    font-size: 20px;
+    padding: .5em;
+    color: #E9D2C4;
+    text-align:center;
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.ow {
+    display: block;
+    width: 5rem;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+/* FOOTER */
+
+
+
+.clearfix:after {
+    content:"";
+    display: table;
+    clear: both;
+}
