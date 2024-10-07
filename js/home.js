@@ -1,27 +1,28 @@
 let slideIndex = 0;
+let slides; 
 
 function showSlides() {
-  const slides = document.querySelectorAll(".slide");
-  
-  // Ensure the slideIndex is within bounds
-  slideIndex = (slideIndex + slides.length) % slides.length; // Wrap around
+  if (!slides) {
+    slides = document.querySelectorAll(".slide");
+  }
 
-  // Update the transform for each slide
-  slides.forEach((slide, index) => {
-    slide.style.transform = `translateX(${100 * (index - slideIndex)}%)`;
-  });
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  
+  slides[slideIndex].style.display = "block";
 }
 
 function nextSlide() {
-  slideIndex++;
+  slideIndex = (slideIndex + 1) % slides.length; 
   showSlides();
 }
 
 function prevSlide() {
-  slideIndex--;
+  slideIndex = (slideIndex - 1 + slides.length) % slides.length; 
   showSlides();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  showSlides();
+  showSlides(); 
 });
