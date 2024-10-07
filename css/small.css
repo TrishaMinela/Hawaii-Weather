@@ -1,12 +1,12 @@
 /* MAIN BODY */
 
 html {
-    background-color: #E9D2C4;
+    background-color: #e4e2dd;
 }
 
 main {
 	margin: 0 auto;
-    background-color: #E9D2C4;
+    background-color: #e4e2dd;
     padding: 3em;
     margin-bottom: 7rem;
 }
@@ -25,9 +25,45 @@ h3, p {
 }
 
 
-/* MAIN BODY */
+/* HOME SLIDER */
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
 
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; 
+    overflow: hidden;
+}
 
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    font-weight: bold;
+}
+
+.prev {
+    left: 10px;
+}
+  
+.next {
+    right: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 
 /* HEADING */
@@ -193,13 +229,14 @@ nav ul li a:hover {
 
 /* HERO */
 
-.idaho {
+/* .Home_Large {
     display: block;
     margin: 0 auto;
-    width: 100%;
+    width: 1400px;
+    max-width: 100%;
     height: auto;
     margin-bottom: 2rem !important;
-}
+} */
 
 .weather {
     display: block;
@@ -491,8 +528,8 @@ h2, .fivedaytitle {
 }
 
 .article, .events {
-    width: 80%;
-    margin: 1rem auto;
+    width: 100%;
+    margin: auto;
     background-color: #f78a5c;
     padding: 15px;
     text-align: justify;
