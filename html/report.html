@@ -3,8 +3,8 @@
  <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Preston Idaho</title>
-      <meta name="description" content="This page will be the preston idaho site">
+      <title>Report Hawaii Weather</title>
+      <meta name="description" content="This page will provide weather updates for Hawaii">      
       <link rel="shortcut icon" href="images/favicon.ico">
       <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="../css/small.css">
@@ -15,23 +15,23 @@
   
   <body>
     <header>
-        <div>
-          <a href="home.html" target="_blank"><img src="Lesson-11/images/CafeLogo.png" alt="Logo"></a>
-        </div>
-        <section class="headingtext">
-            <h1 class="Title">Cafe Recipes</h1>
-            <div class="motto">From Our Kitchen to Your Heart</div>
-        </section>
+      <div>
+        <a href="home.html" target="_blank"><img src="/images/logo.png" alt="Logo"></a>
+      </div>
+      <section class="headingtext">
+        <h1 class="Title">Report a Weather</h1>
+          <div class="motto">Get the best of Paradise</div>
+      </section>
       </header>
     
       <nav class="clearfix">
         <ul class="hamburger">
           <li><a class="ham" href="#" onclick="toggleMenu()">&#9776; MENU</a></li>
-          <li class="active"><a href="home.html">Home</a></li>
+          <li><a href="home.html">Home</a></li>
           <li><a href="honolulu.html">Honolulu</a></li>
           <li><a href="lahaina.html">Lahaina</a></li>  
           <li><a href="kona.html">Kona</a></li>
-          <li><a href="report.html">Report</a></li>
+          <li class="active"><a href="report.html">Report</a></li>
           <li><a href="gallery.html">Gallery</a></li>
         </ul>
       </nav>
@@ -63,11 +63,11 @@
                 <option value="Tornado">
                 </datalist>
 
-                <div class="slide">
+                <!-- <div class="slide">
                 <label class="rating" for="rating">Rating: &nbsp;&nbsp;&nbsp;
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"> <span id="ratingvalue">5</span>
                 </label>
-                </div>
+                </div> -->
     
             <datalist id="tickmarks">
                 <option value="0">
@@ -86,9 +86,9 @@
             <label class="region">Select your Region
                 <select name="regions">
                     <option value=" ">Please Select</option>
-                    <option value="preston">Preston </option>
-                    <option value="sodaSprings">Soda Springs </option>
-                    <option value="fishHaven">Fish Haven </option>
+                    <option value="Honolulu">Honolulu </option>
+                    <option value="Lahaina">Lahaina </option>
+                    <option value="Kona">Kona </option>
                 </select>
             </label>
 
@@ -121,7 +121,7 @@
         <p>Current Date: <span id="currently"> </span></p>
       </footer>
       <script src="../js/script.js"></script>
-      <script src="../js/storm.js"></script>
+      <!-- <script src="../js/storm.js"></script> -->
       <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
       <script>
         WebFont.load({

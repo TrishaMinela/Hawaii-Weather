@@ -350,7 +350,7 @@ form label.user input, form label.stormType input, form label.date input, form l
     padding: .75rem;
     color: #2A2A14;
     width: 100%;
-    background-color: #b1db76;
+    background-color: #c2c2b2;
 }
 
 p.Thanks {
@@ -369,7 +369,7 @@ form label.comments textarea {
     color: #2A2A14;
     max-width: 100% !important;
     width: 100%;
-    background-color: #b1db76;
+    background-color: #c2c2b2;
 }
 
 
