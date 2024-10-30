@@ -5,7 +5,7 @@ document.getElementById('weatherForm').addEventListener('submit', async function
     const data = Object.fromEntries(formData);
 
     try {
-        const response = await fetch('http://localhost:3000/report', {
+        const response = await fetch('http://localhost:3000/reports', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
