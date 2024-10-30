@@ -205,7 +205,7 @@ div#getjson{
 
 
     /* BOTTOM */
-    @media (min-width: 577px) and (max-width: 768px) {
+   
         .bottom {
             display: flex;
             flex-wrap: wrap; /* Allow wrapping */
@@ -223,34 +223,4 @@ div#getjson{
             width: 50px;
             height: auto; /* Maintain aspect ratio */
         }
-    /* BOTTOM */
-
-    
-
-
-
-
-    /* FOOTER */
-
-
-
-    /* FOOTER */
-    
-    
-    
-    
-    
-    
-    
-    
-
-  
-
-
-
-    
-
-
-   
-    
     }

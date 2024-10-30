@@ -117,7 +117,7 @@
         padding-bottom: 1rem;
     }
 
-    .honolulu img {
+    .honolulu, .lahaina, .kona img {
         width: 100%;
         height: auto;
         object-fit: cover;
