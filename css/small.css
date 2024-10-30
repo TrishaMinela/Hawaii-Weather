@@ -8,8 +8,13 @@ html {
 main {
 	margin: 0 auto;
     background-color: #e4e2dd;
-    padding: 3em;
+    padding: 1em;
     margin-bottom: 7rem;
+}
+
+.main h2 {
+    padding: 0;
+    margin: 0;
 }
 
 .gallery {
@@ -545,9 +550,8 @@ h2, .fivedaytitle {
 }
 
 .article, .events {
-    width: 100%;
-    margin: auto;
-    background-color: #f78a5c;
+    width: 80%;
+    margin: 1rem auto;
     padding: 15px;
     text-align: justify;
 }
@@ -567,22 +571,43 @@ h5 {
 /* BOTTOM */
 
 .bottom {
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 0;
-    background-color: #f78a5c;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    width: 90%; /* Full width for small screens */
+    margin: 1rem auto;
     padding: 15px;
     text-align: justify;
+    background-color: #f5f5f5; /* Background color */
 }
 
-.right p {
-    line-height: .7rem;
+.left, .right {
+    flex: 1 1 100%; /* Full width for each section */
+    padding: 1rem;
+    max-width: 100%;
+}
+
+.right {
+    background-color: #c2c2b2; /* Background color for the right section */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-.social {
-    justify-self: center;
+.left iframe {
+    width: 100%;
+    height: auto;
+    max-width: 600px; 
+    border: 0;
+}
 
+.right p {
+    line-height: 1.2; /* Adjust line height for readability */
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.bottom img {
+    display: none; /* Hide image on small screens */
 }
 
 /* BOTTOM */

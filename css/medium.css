@@ -1,4 +1,4 @@
-@media only screen and (min-width: 35em)  {
+@media (min-width: 577px) and (max-width: 768px)  {
 
     /* MAIN BODY */
 
@@ -224,9 +224,7 @@ div#getjson{
         float: right;
     }
     
-    .article, .bottom {
-        background-color: #f78a5c;
-    }    
+
 
     /* ARTICLE */
 
@@ -236,20 +234,24 @@ div#getjson{
 
 
     /* BOTTOM */
-
-    .bottom {
-        display: flex;
-        margin-bottom: 0;
-    }
+    @media (min-width: 577px) and (max-width: 768px) {
+        .bottom {
+            display: flex;
+            flex-wrap: wrap; /* Allow wrapping */
+            gap: 10px; /* Add some gap between elements */
+            width: 80%; /* Adjust width if necessary */
+        }
     
-    .left {
-        flex: 50%
-    }
+        .left, .right {
+            flex: 1 1 48%; /* Two columns layout */
+            padding: 1rem; /* Padding for both sections */
+        }
     
-    .right {
-        flex: 50%
-    }
-
+        .bottom img {
+            display: inline; /* Show image for medium screens */
+            width: 50px;
+            height: auto; /* Maintain aspect ratio */
+        }
     /* BOTTOM */
 
     

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 64em){
+@media only screen and (min-width: 769px){
     /* MAIN BODY */
 
     h2 {
@@ -160,7 +160,7 @@
     }
     
     .fiveday table {
-        background-color: #b1db76 ;
+        background-color: #c2c2b2 ;
         border: 2px solid #2A2A14;
         width: 45%;
         margin: 0 auto;
@@ -208,17 +208,37 @@
     /* BOTTOM */
     
     .bottom {
-        display: flex;
-        margin-bottom: 0;
+        display: flex; 
+        flex-direction: row; 
+        gap: 10px;
+        width: 80%; 
+        margin: 1rem; 
     }
-    
+
     .left {
-        flex: 50%;
+        flex: 1; 
+        padding: 0;
     }
-    
+
+    .left iframe{
+        height: 100%;
+    }
+
     .right {
-        flex: 50%;
+        flex: 1; 
+        background-color: #c2c2b2;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        text-align: center; 
     }
+
+    .bottom img {
+        display: inline;
+        width: 50px;
+        height: auto;
+    }
+}
+
 
     /* BOTTOM */
 
