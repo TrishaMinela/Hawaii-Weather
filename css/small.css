@@ -25,8 +25,11 @@ h2 {
     font-size: 2rem;
 }
 
-h3, p {
+h1, p {
     text-align: center;
+}
+
+p {
     margin: 2px;
 }
 
@@ -108,7 +111,7 @@ header img {
 
 .headingtext h1 {
 	font-size: 30px;
-	margin: 0 0 0 17px;
+	
 }
 
 .motto {
@@ -514,8 +517,8 @@ th img {
 }
 
 .table {
-    width: 70%;
-    margin-bottom: 10rem;
+    width: 90%;
+    
 }
 
 .underdays {
@@ -549,15 +552,23 @@ h2, .fivedaytitle {
     margin: 0 auto;
 }
 
+.article img {
+    max-height: 400px;
+    width: 100%;
+
+}
+
+
 .article, .events {
-    width: 80%;
-    margin: 1rem auto;
-    padding: 15px;
+    width: 95%;
+    margin: 3rem auto;
+    padding: 30px;
     text-align: justify;
 }
 
 h5 {
     text-align: center;
+    margin: 0;
 }
 
 /* ARTICLE */
@@ -634,7 +645,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 .ow {

@@ -190,7 +190,6 @@
 
     .fivedaytitle {
         display:block;
-        margin: 5rem 0 2rem auto;
         font-size: 2.5rem;
     }
     
@@ -247,7 +246,6 @@
         flex-direction: row; 
         gap: 10px;
         width: 80%; 
-        margin: 1rem; 
     }
 
     .left {
@@ -257,6 +255,7 @@
 
     .left iframe{
         height: 100%;
+        width: 100%;
     }
 
     .right {
@@ -272,7 +271,7 @@
         width: 50px;
         height: auto;
     }
-}
+
 
 
     /* BOTTOM */
@@ -287,6 +286,8 @@
     footer, .bottom {
         margin: 0 auto;
         padding: 15px;
+        
+        
     }
 
     /* FOOTER */
