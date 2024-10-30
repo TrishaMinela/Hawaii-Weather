@@ -1,11 +1,11 @@
+document.getElementById('weatherForm').addEventListener('submit', async function(e) {
+    e.preventDefault(); // Prevent the default form submission
 
-    document.getElementById('weatherForm').addEventListener('submit', async function(e) {
-        e.preventDefault(); // Prevent the default form submission
+    const formData = new FormData(this);
+    const data = Object.fromEntries(formData);
 
-        const formData = new FormData(this);
-        const data = Object.fromEntries(formData);
-
-        const response = await fetch('http://localhost:3000/reports', {
+    try {
+        const response = await fetch('http://localhost:3000/report', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -17,6 +17,10 @@
             alert('Report submitted successfully!');
             this.reset(); // Reset form fields after submission
         } else {
-            alert('Error submitting report');
+            const errorMessage = await response.text(); // Get error message from response
+            alert(`Error submitting report: ${errorMessage}`);
         }
-    });
+    } catch (error) {
+        alert('Network error: ' + error.message);
+    }
+});
