@@ -9,7 +9,7 @@ main {
 	margin: 0 auto;
     background-color: #e4e2dd;
     padding: 1em;
-    margin-bottom: 7rem;
+    margin-bottom: 15rem;
 }
 
 .main h2 {
@@ -488,7 +488,7 @@ form label.user input:required:valid {
 }
 
 .table{
-    background-color: #b1db76 ;
+    background-color: #c2c2b2 ;
     border: 2px solid #2A2A14;
     margin: 0 auto;
     padding: 15px;
