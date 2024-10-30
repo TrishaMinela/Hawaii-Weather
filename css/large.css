@@ -1,4 +1,4 @@
-@media only screen and (min-width: 769px){
+@media (min-width: 769px) and (max-width: 2000px){
     /* MAIN BODY */
 
     h2 {
@@ -39,7 +39,7 @@
 
     /* NAVIGATION */
 
-    nav ul { 
+    /* nav ul { 
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         padding-left: 0;
@@ -47,7 +47,37 @@
 
     nav ul li a {
         padding: .6rem 1rem;
+    } */
+
+    nav ul li a {
+        border: none;
+        padding: .7rem 1rem;
     }
+
+    nav ul li {
+        border-right: 1px solid #eb6e38;
+    }
+
+    nav ul li:hover {
+        background-color: #bf3900;
+        color: #2A2A14;
+    }
+
+    .hamburger li:first-child {
+        display: none;
+    }
+    
+    .hamburger {
+		display: flex;
+	}
+	.hamburger li {
+		display: block; 
+		flex: 1 1 auto;
+	}
+
+	.hamburger a {
+		text-align: center;
+	}
 
     /* NAVIGATION */
 

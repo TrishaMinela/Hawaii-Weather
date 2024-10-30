@@ -33,36 +33,7 @@
 
     /* NAVIGATION */
 
-    nav ul li a {
-        border: none;
-        padding: .7rem 1rem;
-    }
-
-    nav ul li {
-        border-right: 1px solid #eb6e38;
-    }
-
-    nav ul li:hover {
-        background-color: #bf3900;
-        color: #2A2A14;
-    }
-
-    .hamburger li:first-child {
-        display: none;
-    }
-    
-    .hamburger {
-		display: flex;
-	}
-	.hamburger li {
-		display: block; 
-		flex: 1 1 auto;
-	}
-
-	.hamburger a {
-		text-align: center;
-	}
-
+    /* 
     /* NAVIGATION */
 
     
